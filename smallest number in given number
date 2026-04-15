@@ -1,0 +1,31 @@
+package nikki;
+
+import java.util.Scanner;
+
+public class Smallest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter the number:");
+		int n=sc.nextInt();
+		int i=9;
+		while(n>0) {
+			int digit=n%10;
+			if(digit<i) {
+			
+				i=digit;
+			}
+			n=n/10;
+			
+		}
+		System.out.println(i);
+		
+		sc.close();
+			}
+
+}
+
+
+
+	
