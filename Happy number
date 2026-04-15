@@ -1,0 +1,33 @@
+package nikki;
+import java.util.Scanner;
+public class Happy {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter number");
+		int n=sc.nextInt();
+		int pow=0;
+		int c=n;
+		while(c!=1&&c!=4)
+			{		
+		int sum=0;
+		while(c>0) {
+			 c=c%10;
+			 pow=c*c;
+		 sum=sum+pow;
+		c=c/10;
+		}
+		c=sum;
+	}
+		if(c==1) {
+			System.out.println("happy number");
+		}
+		else {
+			System.out.println("unhappy number");
+		}
+		sc.close();
+
+	}
+
+}
