@@ -1,0 +1,28 @@
+package nikki;
+import java.util.Scanner;
+
+public class Neon {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter the number:");
+		int n=sc.nextInt();
+		int c=n;
+		long y=n*n;
+		int sum=0;
+while(y!=0) {
+	long n1=y%10;
+	sum+=n1;
+	y=y/10;
+}
+if(sum==c) {
+	System.out.println("neon");
+}
+else {
+	System.out.println("not neon");
+}
+sc.close();
+	}
+
+}
