@@ -1,0 +1,29 @@
+package nikki;
+
+import java.util.Scanner;
+
+public class Harshed {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter a number");
+		int a=sc.nextInt();
+		int c=a;
+		int sum=0;
+		while(a!=0) {
+			int v=a%10;
+			sum+=v;
+			a=a/10;
+		}
+		int result=c%sum;
+		if(result==0) {
+			System.out.println("harshed");
+		}
+		else {
+			System.out.println("not harshed");
+		}
+		sc.close();
+	}
+
+}
