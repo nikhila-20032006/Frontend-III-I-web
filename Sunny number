@@ -1,0 +1,28 @@
+package nikki;
+import java.util.Scanner;
+
+public class Sunny {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc =new Scanner(System.in);
+		System.out.println("enter the number:");
+		int n=sc.nextInt();
+		int num=n+1;
+		int i=1;
+		int a=0;
+		while(i<=n){
+			 a=i*i;
+			if(a==num) {
+				System.out.print("sunny number");
+			return;
+			}
+			i++;
+			
+		}
+	
+		System.out.println("not sunny number");
+		sc.close();
+		}
+
+}
