@@ -1,0 +1,39 @@
+package nikki;
+
+import java.util.Scanner;
+
+public class Tech {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter number:");
+		int n=sc.nextInt();
+		int c=n;
+		int v=n;
+		int sum=0;
+		int count=0;
+		while(c>0) {
+			c/=10;
+			count++;
+		}
+		int div=1;
+		for(int i=1;i<=count/2;i++) {
+			div=div*10;
+		}
+		if(count%2==0) {
+			int a1=v/div;
+			int c1=v%div;
+			sum=a1+c1;
+		}
+		if((sum*sum)==n) {
+			System.out.println("tech number");
+		}
+		else {
+			System.out.println("not tech number");
+		}
+		sc.close();
+
+	}
+
+}
