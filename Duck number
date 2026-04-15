@@ -1,0 +1,22 @@
+package nikki;
+import java.util.Scanner;
+
+public class Duck {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Scanner scan =new Scanner(System.in);
+System.out.println("enter a number:");
+int n=scan.nextInt();
+while(n>0) {
+int n1=n%10;
+if(n1==0) {
+	System.out.println("duck number");
+	return;
+}
+n=n/10;
+	}
+System.out.println("not duck number");
+scan.close();
+}
+}
