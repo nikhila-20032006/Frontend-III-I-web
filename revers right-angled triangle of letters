@@ -1,0 +1,21 @@
+package pattern;
+
+
+public class Pa1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int n=4;
+char ch;
+for(int i=n;i>=1;i--) {
+	ch='A';
+	for(int j=i;j>=1;j--) {
+		System.out.print(ch+" ");
+		ch++;
+	}
+	System.out.println();
+}
+
+	}
+
+}
