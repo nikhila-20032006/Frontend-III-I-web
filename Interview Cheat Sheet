@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Interview Cheat Sheet</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        h1, h2 {
+            color:#e75309;
+        }
+        ul {
+            list-style-type: square;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>🌟 The Ultimate Interview Cheat Sheet 🌟</h1>
+    <p>Prepare for your next job interview with these essential tips and tricks!</p>
+
+    <hr>
+
+    <h2>Part 1: Pre-Interview Preparation</h2>
+    <ul>
+        <li><b>Research the Company:</b> Understand their mission, products, and recent news.</li>
+        <li><b>Know Your Resume:</b> Be ready to talk about every point on your resume.</li>
+        <li><b>Practice Your Answers:</b> Prepare for common questions like "Tell me about yourself" and "Why do you want to work here?".</li>
+    </ul>
+
+    <hr>
+
+    <h2>Part 2: During the Interview</h2>
+    <ol>
+        <li><b>Arrive on Time:</b> Be punctual, whether it's an in-person or virtual interview.</li>
+        <li><b>Listen Carefully:</b> Pay attention to the questions and the interviewer's cues.</li>
+        <li><b>Be Honest and Confident:</b> Answer questions truthfully and show enthusiasm.</li>
+    </ol>
+
+    <hr>
+
+    <h2>Common Questions to Practice</h2>
+    <h3>Behavioral Questions</h3>
+    <p>These questions assess your past behavior to predict future performance. Use the <b>STAR</b> method (Situation, Task, Action, Result).</p>
+    <ul>
+        <li>Tell me about a time you faced a challenge.</li>
+        <li>Describe a time you worked well in a team.</li>
+    </ul>
+
+    <h3>Technical Questions</h3>
+    <p>Be ready for questions specific to your field. For example, a web developer might be asked about JavaScript frameworks or database design.</p>
+    <p>For more in-depth technical guides, check out these <a href="https://example.com/tech-resources">technical interview resources</a>.</p>
+
+</body>
+</html>
